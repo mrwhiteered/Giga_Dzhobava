@@ -548,11 +548,11 @@ body._touch .menu__list>li._active .menu__sub-list {
 }
 
 .social-icons .social-icon-vk::before {
-    background-image: url("/img/inst.png");
+    background-image: url("img/inst.png");
 }
 
 .social-icons .social-icon-ins::before {
-    background-image: url("/img/vk.png");
+    background-image: url("img/vk.png");
 }
 
 .main {
