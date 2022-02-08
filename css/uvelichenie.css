@@ -20,7 +20,7 @@
     display: inline-block;
     height: 129px;
     width: 129px;
-    background: url(img/test_img.jpg) 50% 50% no-repeat;
+    background: url(../img/test_img.jpg) 50% 50% no-repeat;
     background-size: 50% 50%;
 }
 
@@ -33,7 +33,7 @@ a.rollover {
     width: 229px;
     /*  Высота рисунка */
     transition: 1s;
-    background: url(img/16.jpeg) 50% 50% no-repeat;
+    background: url(../img/16.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с исходным рисунком  */
     border-radius: 0%;
     border: solid black;
@@ -42,7 +42,7 @@ a.rollover {
 
 a.rollover:hover {
     transition: 1s;
-    background: url(img/17.jpeg) 50% 50% no-repeat;
+    background: url(../img/17.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
@@ -55,7 +55,7 @@ a.rollover_2 {
     width: 229px;
     /*  Высота рисунка */
     transition: 1s;
-    background: url(img/7.jpeg) 50% 50% no-repeat;
+    background: url(../img/7.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с исходным рисунком  */
     border: solid black;
     border-radius: 0%;
@@ -64,7 +64,7 @@ a.rollover_2 {
 
 a.rollover_2:hover {
     transition: 1s;
-    background: url(img/8.jpeg) 50% 50% no-repeat;
+    background: url(../img/8.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
@@ -77,7 +77,7 @@ a.rollover_3 {
     width: 229px;
     /*  Высота рисунка */
     transition: 1s;
-    background: url(img/31.jpeg) 50% 50% no-repeat;
+    background: url(../img/31.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с исходным рисунком  */
     border: solid black;
     border-radius: 0%;
@@ -86,7 +86,7 @@ a.rollover_3 {
 
 a.rollover_3:hover {
     transition: 1s;
-    background: url(img/60.jpeg) 50% 50% no-repeat;
+    background: url(../img/60.jpeg) 50% 50% no-repeat;
     /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
