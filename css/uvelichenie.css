@@ -1,140 +1,137 @@
-
 /* увеличивание картинки */
+
 .transition-icons {
-	text-align: center;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
+
 .transition-icons li {
-	display: inline-block;
-	height: 329px;
-	width: 329px;
-	margin: 0 19px;
-	padding: 0 0 0 0;
-	text-align: center;
+    display: inline-block;
+    height: 329px;
+    width: 329px;
+    margin: 0 19px;
+    padding: 0 0 0 0;
+    text-align: center;
     margin-top: 100px;
 }
-.button {
-	display: inline-block;
 
-	height: 129px;
-	width: 129px;
-	background: url(/img/test_img.jpg) 50% 50% no-repeat;
-	background-size: 50% 50%;	
+.button {
+    display: inline-block;
+    height: 129px;
+    width: 129px;
+    background: url(img/test_img.jpg) 50% 50% no-repeat;
+    background-size: 50% 50%;
 }
+
+
 /*смена картинки */
+
 a.rollover {
     display: inline-block;
-	height: 229px;
-	width: 229px;/*  Высота рисунка */
+    height: 229px;
+    width: 229px;
+    /*  Высота рисунка */
     transition: 1s;
-    
-    background: url(/img/16.jpeg) 50% 50% no-repeat; /* Путь к файлу с исходным рисунком  */
-    
+    background: url(img/16.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с исходным рисунком  */
     border-radius: 0%;
     border: solid black;
     background-size: 100% 100%;
-    
-   
-    
-    
-    
-   }
-   a.rollover:hover {
+}
+
+a.rollover:hover {
     transition: 1s;
-    
-    
-    background: url(/img/17.jpeg)   50% 50% no-repeat ; /* Путь к файлу с заменяемым рисунком  */
-    
+    background: url(img/17.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
-   
     transform: scale(1.5);
-    
 }
 
 a.rollover_2 {
     display: inline-block;
-	height: 229px;
-	width: 229px;/*  Высота рисунка */
+    height: 229px;
+    width: 229px;
+    /*  Высота рисунка */
     transition: 1s;
-    background: url(/img/7.jpeg) 50% 50% no-repeat; /* Путь к файлу с исходным рисунком  */
+    background: url(img/7.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с исходным рисунком  */
     border: solid black;
     border-radius: 0%;
     background-size: 100% 100%;
-   }
-   a.rollover_2:hover {
-    
+}
+
+a.rollover_2:hover {
     transition: 1s;
-    background: url(/img/8.jpeg)   50% 50% no-repeat ; /* Путь к файлу с заменяемым рисунком  */
-    
+    background: url(img/8.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
-   
     transform: scale(1.5);
-    
 }
 
 a.rollover_3 {
     display: inline-block;
-	height: 229px;
-	width: 229px;/*  Высота рисунка */
+    height: 229px;
+    width: 229px;
+    /*  Высота рисунка */
     transition: 1s;
-    background: url(/img/31.jpeg) 50% 50% no-repeat; /* Путь к файлу с исходным рисунком  */
+    background: url(img/31.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с исходным рисунком  */
     border: solid black;
     border-radius: 0%;
     background-size: 100% 100%;
-   }
-   a.rollover_3:hover {
-    
+}
+
+a.rollover_3:hover {
     transition: 1s;
-    background: url(/img/60.jpeg)   50% 50% no-repeat ; /* Путь к файлу с заменяемым рисунком  */
-    
+    background: url(img/60.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
-   
     transform: scale(1.5);
-    
 }
 
 a.rollover_4 {
     display: inline-block;
-	height: 229px;
-	width: 229px;/*  Высота рисунка */
+    height: 229px;
+    width: 229px;
+    /*  Высота рисунка */
     transition: 1s;
-    background: url(/img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.29.jpeg) 50% 50% no-repeat; /* Путь к файлу с исходным рисунком  */
+    background: url(img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.29.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с исходным рисунком  */
     border: solid black;
     border-radius: 0%;
     background-size: 100% 100%;
-   }
-   a.rollover_4:hover {
-    
+}
+
+a.rollover_4:hover {
     transition: 1s;
-    background: url(/img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.32.jpeg)   50% 50% no-repeat ; /* Путь к файлу с заменяемым рисунком  */
-    
+    background: url(img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.32.jpeg) 50% 50% no-repeat;
+    /* Путь к файлу с заменяемым рисунком  */
     background-size: 100% 100%;
     border-radius: 0%;
-   
     transform: scale(1.5);
-    
 }
-
 
 .transition-2 {
-	transition: background-size 0.2s ease;
-}
-.transition-3 {
-	transition: background-size 0.5s ease;
-}	
-.transition-4 {
-	transition: background-size 1.5s ease;
-}	
-.button:hover {
-	background-size: 100% 100%;
-}
-.button:hover .transition-44 {
-    transition: background-size 1.5s ease;
-	background-image: url(/img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.32\ \(1\).jpeg);
-   
+    transition: background-size 0.2s ease;
 }
 
+.transition-3 {
+    transition: background-size 0.5s ease;
+}
+
+.transition-4 {
+    transition: background-size 1.5s ease;
+}
+
+.button:hover {
+    background-size: 100% 100%;
+}
+
+.button:hover .transition-44 {
+    transition: background-size 1.5s ease;
+    background-image: url(img/WhatsApp\ Image\ 2022-01-27\ at\ 20.03.32\ \(1\).jpeg);
+}
