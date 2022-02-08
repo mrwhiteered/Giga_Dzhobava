@@ -509,6 +509,7 @@ body._touch .menu__list>li._active .menu__sub-list {
     width: 100%;
     background-color: rgb(255, 253, 253);
     text-align: center;
+    border: 10px solid white
 }
 
 .social-icons {
@@ -598,4 +599,5 @@ body._touch .menu__list>li._active .menu__sub-list {
 
 .footer_index {
     margin-top: 400px;
+    border: 10px solid white;
 }
