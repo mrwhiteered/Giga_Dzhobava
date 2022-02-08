@@ -1,0 +1,81 @@
+  /*ГАЛЕРЕЯ*/
+  
+  .gal__item {
+      padding: 0px;
+      border: solid black;
+      margin: 10px;
+  }
+  
+  .gal__item p img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  @media screen and (max-width: 767px) {
+      .gal__container {
+          display: grid;
+          grid-template-columns: 90%;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .gal__container p {
+          text-align: center;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+      .gal__container {
+          display: grid;
+          grid-template-columns: 47% 47%;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .gal__container p {
+          text-align: center;
+      }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+      .gal__container {
+          display: grid;
+          grid-template-columns: 32% 32% 32%;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .gal__container p {
+          text-align: center;
+      }
+  }
+  
+  @media (min-width: 1200px) {
+      .gal__container {
+          display: grid;
+          grid-template-columns: 23% 23% 23% 23%;
+          justify-content: space-around;
+          align-content: center;
+          align-items: center;
+      }
+      .gal__container p {
+          text-align: center;
+      }
+  }
+  
+  .gal__main {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 34px;
+      font-family: 'Cinzel', serif;
+      src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+  }
+  
+  .gal__main::first-letter {
+      /*       color:rgb(0, 0, 0);
+ */
+      font-size: 36px;
+      font-family: 'Cinzel', serif;
+      src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+  }
+  
+  .gallery_page {
+      margin-top: 100px;
+  }
