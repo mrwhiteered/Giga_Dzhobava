@@ -360,7 +360,7 @@ body._touch .menu__list>li._active .menu__sub-list {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/img/logo_giga_2.jpg);
+    background-image: url(img/logo_giga_2.jpg);
     z-index: 99999;
 }
 
@@ -373,7 +373,7 @@ body._touch .menu__list>li._active .menu__sub-list {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/img/logo_giga_2.jpg);
+    background-image: url(img/logo_giga_2.jpg);
     z-index: 99999;
 }
 
@@ -421,49 +421,49 @@ body._touch .menu__list>li._active .menu__sub-list {
 }
 
 .body_slides li:nth-child(1) {
-    background-image: url(/img/47.jpeg);
+    background-image: url(img/47.jpeg);
 }
 
 .body_slides li:nth-child(2) {
     -webkit-animation-delay: 12.0s;
     -moz-animation-delay: 12.0s;
-    background-image: url(/img/55.jpeg);
+    background-image: url(img/55.jpeg);
 }
 
 .body_slides li:nth-child(3) {
     -webkit-animation-delay: 24.0s;
     -moz-animation-delay: 24.0s;
-    background-image: url(/img/61.jpeg);
+    background-image: url(img/61.jpeg);
 }
 
 .body_slides li:nth-child(4) {
     -webkit-animation-delay: 36.0s;
     -moz-animation-delay: 36.0s;
-    background-image: url(/img/62.jpeg);
+    background-image: url(img/62.jpeg);
 }
 
 .body_slides li:nth-child(5) {
     -webkit-animation-delay: 48.0s;
     -moz-animation-delay: 48.0s;
-    background-image: url(/img/41.jpeg);
+    background-image: url(img/41.jpeg);
 }
 
 .body_slides li:nth-child(6) {
     -webkit-animation-delay: 60.0s;
     -moz-animation-delay: 60.0s;
-    background-image: url(/img/44.jpeg);
+    background-image: url(img/44.jpeg);
 }
 
 .body_slides li:nth-child(7) {
     -webkit-animation-delay: 72.0s;
     -moz-animation-delay: 72.0s;
-    background-image: url(/img/48.jpeg);
+    background-image: url(img/48.jpeg);
 }
 
 .body_slides li:nth-child(8) {
     -webkit-animation-delay: 84.0s;
     -moz-animation-delay: 84.0s;
-    background-image: url(/img/49.jpeg);
+    background-image: url(img/49.jpeg);
 }
 
 @-webkit-keyframes anim_slides {
