@@ -341,6 +341,7 @@ body._touch .menu__list>li._active .menu__sub-list {
 
 .logo img {
     max-width: 50px;
+    border-radius: 30%;
 }
 
 ._test {
@@ -563,7 +564,9 @@ body._touch .menu__list>li._active .menu__sub-list {
 
 /* СТАРТОВАЯ СТРАНИЦА */
 
-.start_page {}
+.start_page {
+    max-width: 90%;
+}
 
 .starter_section {
     text-align: center;
