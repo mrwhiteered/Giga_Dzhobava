@@ -341,7 +341,7 @@ body._touch .menu__list>li._active .menu__sub-list {
 
 .logo img {
     max-width: 50px;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 ._test {
