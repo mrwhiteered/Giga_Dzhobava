@@ -526,8 +526,8 @@ body._touch .menu__list>li._active .menu__sub-list {
 }
 
 .social-icons>li {
-    margin-left: 3px;
-    margin-right: 3px;
+    max-width: 200px;
+    
 }
 
 .social-icons a {
