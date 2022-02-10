@@ -361,8 +361,10 @@ body._touch .menu__list>li._active .menu__sub-list {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../img/logo_giga_4.png);
+    background-size: 90%;
+    background-image: url(../img/logo_giga.jpeg);
     z-index: 99999;
+    
 }
 
 .load-container_2 {
@@ -374,7 +376,7 @@ body._touch .menu__list>li._active .menu__sub-list {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../img/logo_giga_4.png);
+    background-image: url(../img/logo_giga.jpeg);
     z-index: 99999;
 }
 
