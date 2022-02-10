@@ -361,11 +361,17 @@ body._touch .menu__list>li._active .menu__sub-list {
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 90%;
+   
     background-image: url(../img/logo_giga.jpeg);
     z-index: 99999;
     
 }
+@media (max-width:767px){
+    .load-container {
+        background-size: 90%;
+    }
+}
+
 
 .load-container_2 {
     position: absolute;
