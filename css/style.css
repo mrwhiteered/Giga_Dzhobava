@@ -527,6 +527,7 @@ body._touch .menu__list>li._active .menu__sub-list {
 
 .social-icons>li {
     max-width: 200px;
+    min-width: 200px;
     
 }
 
