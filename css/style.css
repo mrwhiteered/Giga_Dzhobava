@@ -537,8 +537,8 @@ body._touch .menu__list>li._active .menu__sub-list {
     
 }
 .social-icons>li:last-child {
-    max-width: 200px;
-    min-width: 190px;
+    max-width: 190px;
+    min-width: 180px;
     
 }
 
